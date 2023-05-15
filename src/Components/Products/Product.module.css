@@ -1,0 +1,41 @@
+.star {
+    color: #DFB300;
+    margin: 0 0 18px 0;
+}
+
+.img {
+width: 21vw;
+}
+
+.name {
+margin: 20px 0 10px 0;
+font-weight: 400;
+font-size: 18px;
+line-height: 36px;
+}
+.price, .category {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.category {
+color: #C4C4C4;
+font-size: 14px;
+font-weight: 400;
+line-height: 28px;
+margin: 0 0 10px 0;
+}
+
+
+@media (max-width: 892px) {
+   .img {
+    width: 39vw;
+   }
+ }
+
+ @media (max-width: 521px) {
+    .img {
+     width: 89vw;
+    }
+  }
+ 

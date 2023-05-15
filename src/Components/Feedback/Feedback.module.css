@@ -1,0 +1,48 @@
+.feedback {
+    padding: 0 80px 158px 80px;
+    background-color: #F3F5F7;
+}
+
+.list {
+    display: flex;
+    column-gap: 70px;
+    justify-content: center;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 72px;
+    text-align: center;
+    padding-top: 84px;
+    margin-bottom: 200px;
+}
+
+@media (max-width: 1010px) {
+    .feedback {
+        padding: 0 25px 158px 25px;
+    }
+}
+
+
+
+@media (max-width: 810px) {
+    .list {
+        display: block;
+    }
+
+    .feedback {
+        padding: 0 80px 68px 80px;
+    }
+
+    .title {
+        margin-bottom: 100px;
+    }
+}
+
+
+@media (max-width: 650px) {
+    .title {
+        margin-bottom: 100px;
+    }
+}

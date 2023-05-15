@@ -1,0 +1,37 @@
+.products {
+    padding: 200px 80px;
+    box-sizing: border-box;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 72px;
+    color: black;
+   margin: 0 0 40px 0;
+   text-align: center;
+}
+
+.star {
+    color: #DFB300;
+}
+.list {
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+}
+
+@media (max-width: 1010px) {
+    .products {
+     padding: 200px 25px;
+    }
+ }
+
+ @media (max-width: 892px) {
+    .list {
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+ }
+ 
+ 

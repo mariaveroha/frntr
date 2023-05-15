@@ -1,0 +1,172 @@
+.banner {
+    background-image: url(../../Images/main.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 940px;
+    padding: 0 80px;
+    margin-bottom: 127px;
+}
+
+.nav {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 80px;
+
+}
+
+.list {
+    display: flex;
+    column-gap: 60px;
+}
+
+.item {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: black;
+}
+
+.logo {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: black;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    max-width: 834px;
+    text-align: center;
+    margin: 165px auto 40px auto;
+}
+
+.subtitle {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    max-width: 574px;
+    text-align: center;
+    margin: 0 auto 60px;
+}
+
+.blockI {
+    margin: 0 auto;
+    width: 360px;
+}
+
+.input {
+    width: 360px;
+    border: 1px solid #000000;
+    border-radius: 30px;
+    height: 60px;
+    padding: 16px 19px;
+    box-sizing: border-box;
+    background-image: url(../../Images/loop.png);
+    background-repeat: no-repeat;
+    background-position: 313px;
+}
+
+.input::placeholder {
+    font-weight: 500;
+    color: #000000;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    column-gap: 6px;
+    cursor: pointer;
+}
+
+@media (max-width: 1010px) {
+    .banner {
+        padding: 0 25px;
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width: 875px) {
+    .nav {
+        column-gap: 50px;
+    }
+
+    .list {
+        column-gap: 40px;
+    }
+}
+
+
+@media (max-width: 760px) {
+    .item {
+        font-size: 15px;
+    }
+}
+
+
+
+@media (max-width: 713px) {
+    .nav {
+        display: block;
+    }
+
+    .list {
+        margin-top: 15px;
+        justify-content: center;
+    }
+
+    .item {
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width: 560px) {
+    .title {
+        margin-top: 65px;
+    }
+}
+
+
+@media (max-width: 533px) {
+    .item {
+        font-size: 15px;
+    }
+}
+
+
+
+
+@media (max-width: 490px) {
+   .list {
+    column-gap: 20px;
+   }
+
+}
+
+@media (max-width: 410px) {
+    .item {
+        font-size: 14px;
+    }
+    .list {
+        column-gap: 15px;
+       }
+ }
+
+@media (max-width: 400px) {
+    .blockI {
+        width: 300px;
+    
+    }
+    .input {
+        width: 300px;
+        background-position: 257px;
+    }
+}

@@ -1,0 +1,35 @@
+.choose {
+    padding: 0 80px;
+}
+.title {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 72px;
+    color: black;
+    margin-top: 13px;
+    margin-bottom: 16px;
+}
+
+.cards {
+    display: flex;
+    column-gap: 20px;
+}
+
+@media (max-width: 1010px) {
+    .choose {
+     padding: 0 25px;
+    }
+ }
+ 
+
+ @media (max-width: 893px) {
+    .title {
+        text-align: center;
+    }
+   .cards {
+    flex-wrap: wrap;
+    row-gap: 20px;
+    justify-content: center;
+   }
+ }
+ 
