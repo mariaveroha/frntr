@@ -56,3 +56,17 @@ a {
 .dd li:not(:last-child), .ddFeedback li:not(:last-child) {
     margin-right: 20px;
 }
+
+@media (max-width: 810px) {
+    .ddFeedback{
+        bottom: -40px;
+    }
+}
+
+@media (max-width: 610px) {
+    .ddFeedback li button {
+        width: 9px;
+        height: 9px;
+        padding: 4px;
+    }
+}

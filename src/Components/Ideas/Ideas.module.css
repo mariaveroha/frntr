@@ -8,12 +8,11 @@
     font-weight: 500;
     line-height: 72px;
     color: black;
-   margin: 0;
+    margin: 0;
 }
 
 .block {
     display: flex;
-    align-items: center;
     column-gap: 84px;
 }
 
@@ -22,7 +21,7 @@
 }
 
 .subtitle {
-    font-weight:  400;
+    font-weight: 400;
     font-size: 18px;
     line-height: 36px;
 }
@@ -36,33 +35,32 @@
 }
 
 .desc {
-    font-weight:  300;
+    font-weight: 300;
     font-size: 18px;
     line-height: 36px;
-    animation-duration: 1s;
-    animation-name: slidegdz;
+    overflow: hidden;
+    height: 0;
+    transition: height ease 3s;
+}
 
+.descActive {
+    height: 100px;
 }
 
 
-@keyframes slidegdz {
-    0% { opacity: 0; }
-    100% { opacity: 1 }
-   }
-
 @media (max-width: 1010px) {
     .ideas {
-     padding: 200px 25px 0 25px;
+        padding: 200px 25px 0 25px;
     }
- }
- 
+}
 
- @media (max-width: 755px) {
+
+@media (max-width: 755px) {
     .block {
         display: block;
     }
+
     .img {
         max-width: 100%;
     }
- }
- 
+}
