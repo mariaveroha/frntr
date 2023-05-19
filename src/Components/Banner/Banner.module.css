@@ -91,7 +91,9 @@
     cursor: pointer;
 }
 
-
+.bag {
+    cursor: pointer;
+}
 
 @media (max-width: 1010px) {
     .banner {

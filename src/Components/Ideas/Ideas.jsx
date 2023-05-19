@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import s from './Ideas.module.css'
 import idea from '../../Images/idea.svg'
 const Ideas = () => {
